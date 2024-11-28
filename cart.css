@@ -1,0 +1,66 @@
+/* ---------------- nav bar--------------------------- */
+.TopNavBlock{
+    background-color: rgb(0, 202, 0);
+    border-radius: 50px 20px;
+}
+.TopNavBlock-seconddiv span,.TopNavBlock-seconddiv span a {
+    color: white;
+}
+.TopNavBlock-seconddiv span a:hover{
+    color: rgb(243, 204, 32);
+    transition: 1s;
+}
+#navbarSupportedContent ul li a:hover {
+    color: rgb(30, 197, 30);
+    transition: 0.5s;
+}
+#navbarSupportedContent ul{
+  margin-right: 15%;
+  margin-left: 15%;
+}
+.navbar-right-three-icons a i{
+    color: rgb(30, 197, 30);   
+}
+.navbar-right-three-icons a i:hover{
+    color: rgb(29, 143, 29);   
+}
+.sticky-navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure the navbar stays on top of other elements */
+    border-bottom: 1px solid gray;
+}
+
+/* ---------------------------------------------------------- */
+
+/* --------------- footer -------------------------------- */
+
+.footer-input-type-text {
+    padding: 10px 10px 10px 30px;
+  }
+  
+  .footer-input-type-text::placeholder {
+    margin-left: 20px;
+    font-style: italic;
+  }
+  
+  .footer-subscribe-button:hover {
+    cursor: pointer;
+    background-color: rgb(201, 201, 0);
+  }
+  
+  .footer-readmore-btn-1>p,.footer-readmore-btn-11>p{
+      color: gainsboro;
+    }
+    .footer-readmore-btn-1>p:hover{
+      color: rgb(196, 196, 0);
+    }
+  .footer-readmore-btn>p{
+  color: gainsboro;
+  word-spacing: 2px;
+  line-height: 200%;
+  font-size: 20px;
+  }
+  .footer-readmore-btn>button:hover{
+  color: white;
+  }

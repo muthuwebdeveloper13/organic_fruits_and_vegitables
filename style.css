@@ -1,0 +1,291 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* background-color: red; */
+}
+.uparrow{
+    width: 45px;
+    height: 45px; 
+    background-color: rgb(68, 127, 255); 
+    align-content: center; 
+    text-align: center; 
+    position: fixed; 
+    right: 25px; 
+    bottom: 25px; 
+    z-index: 1; 
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.uparrow:hover{
+    box-shadow: 0px 0px 15px purple, 0px 0px 10px rgb(207, 1, 207);
+}
+
+/* ---------------- nav bar--------------------------- */
+.TopNavBlock{
+    background-color: rgb(0, 202, 0);
+    border-radius: 50px 20px;
+}
+.TopNavBlock-seconddiv span,.TopNavBlock-seconddiv span a {
+    color: white;
+}
+.TopNavBlock-seconddiv span a:hover{
+    color: rgb(243, 204, 32);
+    transition: 1s;
+}
+.navbar-brand{
+    color: rgb(30, 197, 30);
+}
+.navbar-brand:hover{
+    color: rgb(30, 197, 30);
+}
+#navbarSupportedContent ul li a:hover {
+    color: rgb(30, 197, 30);
+    transition: 0.5s;
+}
+#navbarSupportedContent ul{
+    margin-right: 20%;
+    margin-left: 15%;
+}
+.navbar-right-three-icons a i{
+    color: rgb(30, 197, 30);
+}
+.navbar-right-three-icons a i:hover{
+    color: rgb(29, 143, 29);   
+}
+.sticky-navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure the navbar stays on top of other elements */
+    border-bottom: 1px solid gray;
+}
+
+  
+
+/* ---------------------------------------------------------- */
+
+
+.four-box-border>div>div{
+    border:none;
+}
+
+.form-carosual-input-button{
+ position: relative;
+}
+
+.form-carosual-input-button>input{
+    height: 50px;
+    border: 1px solid rgb(0, 202, 0);
+}
+
+.form-carosual-input-button>input:hover{
+    box-shadow: 0px 0px 2px darkgreen, 0px 0px 10px green;
+}
+
+
+.form-carosual-input-button>button{
+    position: absolute;
+    height: 50px;
+    width: 30%;
+    right: 1.4%;
+    font-weight: 600;
+    color: rgb(0, 202, 0);
+    letter-spacing: 1px;
+}
+
+.form-carosual-input-button>button:hover{
+    box-shadow: 0px 0px 2px darkgreen, 0px 0px 10px green;
+}
+
+
+/* Custom card styling */
+.custom-card {
+transition: transform 0.3s ease;
+border: 1px solid gainsboro;
+width: 100%;
+}
+
+.custom-card:hover{
+    box-shadow: 0px 0px 10px gray, 0px 0px 20px rgb(71, 71, 71);
+}
+
+/* Hover effect for scaling */
+/* .custom-card:hover {
+transform: scale(1.05);
+} */
+
+/* Container for image and hover effect */
+.img-hover-container {
+position: relative;
+overflow: hidden;
+border: 2px solid #f1f1f1; /* Add a border to the image */
+border-radius: 10px; /* Optional: Add border-radius to the image */
+}
+
+/* Image styling */
+.card-img-top {
+width: 100%;
+height: 200px;
+object-fit: cover;
+transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect: enlarge the image within the border */
+.img-hover-container:hover .card-img-top {
+transform: scale(1.1);
+}
+
+/* Button styling */
+.custom-btn {
+position: absolute;
+top: 10px;
+left: 10px;
+border-radius: 10px;
+padding: 5px 10px;
+width: 100px;
+}
+
+.btn-warning:hover {
+background-color: #ffc107;
+color: #fff;
+}
+
+#cards-10img:hover{
+    color: white;
+}
+
+.threeboxes{
+    width: 360px; 
+    height: 380px; 
+    border-radius: 10px;
+    position: relative;
+}
+.threeboxes>div{
+    position: absolute;
+    width: 225px;
+    height: 125px;
+    top: 200px;
+    left: 65px;
+    border-radius: 10px;
+    background-color: rgb(0, 202, 0);
+    text-align: center;
+}
+
+.foficon{
+    text-align: end;
+}
+
+.foficon button{
+    width: 90px;
+    margin-right: 10px;
+}
+
+.foficon button i{
+    height: 20px;
+    width: 30px;
+}
+
+.custom-btn-four {
+    background-color: rgb(0, 209, 0);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    width: 100px;
+    color: white;
+    }
+
+.custom-btn-four:hover{
+    color: black;
+    background-color: rgb(250, 226, 14);
+}
+/* --------------------------------------------- */
+
+.footer-input-type-text {
+  padding: 10px 10px 10px 30px;
+}
+
+.footer-input-type-text::placeholder {
+  margin-left: 20px;
+  font-style: italic;
+}
+
+.footer-subscribe-button:hover {
+  cursor: pointer;
+  background-color: rgb(201, 201, 0);
+}
+
+.footer-readmore-btn-1>p,.footer-readmore-btn-11>p{
+    color: gainsboro;
+  }
+  .footer-readmore-btn-1>p:hover{
+    color: rgb(196, 196, 0);
+  }
+.footer-readmore-btn>p{
+color: gainsboro;
+word-spacing: 2px;
+line-height: 200%;
+font-size: 20px;
+}
+.footer-readmore-btn>button:hover{
+color: white;
+}
+
+.jumbotron-two {
+    background-color: rgb(252, 183, 36);
+}
+
+.jumbotron-two button:hover {
+    background-color: rgb(8, 194, 8);
+}
+
+.jumbotron-two-absolute {
+    position: relative;
+    margin-top: 40px;
+}
+
+.jumbotron-two-absolute div {
+    position: absolute;
+    background-color: #fff;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    top: 0;
+}
+
+.jumbotron-two-absolute div h1 {
+    position: absolute;
+    font-size: 5em;
+    left: 14px;
+    top: 13px;
+}
+
+.jumbotron-two-absolute div h1 sub {
+    font-size: 1.5rem;
+    bottom: 5px;
+}
+
+.jumbotron-two-absolute div h2 {
+    font-size: 2em;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .jumbotron-two-absolute div {
+        height: 100px;
+        width: 100px;
+    }
+
+    .jumbotron-two-absolute div h1 {
+        font-size: 3em;
+    }
+
+    .jumbotron-two-absolute div h2 {
+        font-size: 1.5em;
+    }
+}
